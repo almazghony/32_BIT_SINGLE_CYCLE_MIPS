@@ -1,0 +1,28 @@
+Instruction Set (15 Instructions)
+================================================
+
+Format: Instruction   Opcode (Hex) | Function (Hex)
+
+R-TYPE (Opcode: 0x00)
+---------------------
+add   0x00 | 0x20
+sub   0x00 | 0x22
+and   0x00 | 0x24
+or    0x00 | 0x25
+nor   0x00 | 0x27
+slt   0x00 | 0x2A
+sll   0x00 | 0x00
+srl   0x00 | 0x02
+sra   0x00 | 0x03
+
+I-TYPE
+------
+lw    0x23 | N/A
+sw    0x2B | N/A
+beq   0x04 | N/A
+addi  0x08 | N/A
+andi  0x0C | N/A
+
+J-TYPE
+------
+j     0x02 | N/A
