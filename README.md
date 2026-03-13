@@ -16,7 +16,6 @@ The design supports R-type, I-type, and J-type instructions
 * OR
 * ADD
 * SUB
-* MULT
 * SLT
 * NOR
 * SLL
